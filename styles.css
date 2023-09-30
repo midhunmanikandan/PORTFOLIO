@@ -1,0 +1,236 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #1a0909;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #6b3838;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* About Section Styles */
+#about {
+    padding: 50px 0;
+}
+/* Passport Photo Styles */
+.passport-photo {
+    max-width: 51mm; /* Set the width to the desired passport photo width */
+    max-height: 51mm; /* Set the height to the desired passport photo height */
+    width: auto;
+    height: auto;
+}
+
+
+/* Skill Section Styles */
+.skills {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+    padding-left: 1.5em;
+    position: relative;
+}
+
+.skills li::before {
+    content: "\2022"; /* Unicode character for a bullet point */
+    position: absolute;
+    left: 0;
+}
+
+/* Timeline Section Styles */
+#timeline {
+    background-color: #f4f4f4;
+}
+
+.timeline {
+    position: relative;
+    padding: 40px 0;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #007bff; /* Timeline dot color */
+    border-radius: 50%;
+}
+
+.timeline-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.timeline h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.timeline p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Experience Timeline Styles */
+#experience {
+    background-color: #f9f9f9;
+}
+
+.experience-timeline {
+    position: relative;
+    padding: 40px 0;
+}
+
+.experience-item {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.experience-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.experience-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.experience-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/* Services Section Styles */
+#services {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+/* Portfolio Section Styles */
+#portfolio {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Contact Section Styles */
+#contact {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+/* Social Media Icons Styles */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.social-media a {
+    margin: 0 10px; /* Adjust the spacing between icons */
+    text-decoration: none;
+}
+
+.social-media img {
+    width: 40px; /* Adjust the width of the social media icons */
+    height: 40px; /* Adjust the height of the social media icons */
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media img:hover {
+    transform: scale(1.2); /* Enlarge the icons on hover */
+}
+
+
+/* Footer Styles */
+footer {
+    color: #fff;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
